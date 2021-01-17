@@ -1,9 +1,6 @@
 # @name:    Katana-DorkScanner
-# @repo:    https://github.com/adnane-X-tebbaa/Katana
-# @author:  Adnane-X-tebbaa (AXT)
-# Proxy-file V0.1
-# find online proxy servers 
-# twitter TebbaaX
+# @repo:    https://github.com/adimas999/G-Dork
+# @author:  MrDevils
 import asyncio
 from proxybroker import Broker
 from termcolor import colored, cprint
@@ -13,9 +10,9 @@ import os
 B = """
  ____
 |  _ \ _ __ _____  ___   _
-| |_) | '__/ _ \ \/ / | | |    Katana-ds V1.5.3
+| |_) | '__/ _ \ \/ / | | |    G-Dork
 |  __/| | | (_) >  <| |_| |    Proxy Mode
-|_|   |_|  \___/_/\_\\__,  |   Coded by Adnane-X-tebbaa (AXT) 
+|_|   |_|  \___/_/\_\\__,  |   Coded by MrDevils
                      |___/
 """
 print(B)
