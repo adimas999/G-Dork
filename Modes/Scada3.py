@@ -1,4 +1,4 @@
-# @name:    Katana-DorkScanner
+# @name:    DorkScanner
 # @repo:    https://github.com/adimas999/G-Dork
 # @author:  MrDevils
 
