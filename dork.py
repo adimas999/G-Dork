@@ -1,31 +1,6 @@
-# @name:    Katana-DorkScanner
-# @repo:    https://github.com/adnane-X-tebbaa/Katana
-# @author:  Adnane tebbaa (AXT)
-# Main-file V2.0
-"""
-MIT License
-
-Copyright (c) 2020 adnane tebbaa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-"""
+# @name:    DorkScanner
+# @repo:    https://github.com/adimas999/G-Dork
+# @author:  MrDevils
 
 
 import argparse
@@ -37,19 +12,21 @@ def clear():
 
 print ("")
 A = """             
-                    |
-  ,_._._._._._._._._T__________________________________________________________
-  |G|o|o|g|l|e|_|_|_O_________________________________________________________/
-                    R                                                           V1.5.3
-                    |
-                    
-    Katana Dork Scanner (Katana-DS) coded by adnane-X-tebbaa 
+    
+       ______      ____             __  
+      / ____/     / __ \____  _____/ /__
+     / / ________/ / / / __ \/ ___/ //_/
+    / /_/ /_____/ /_/ / /_/ / /  / ,<   
+    \____/     /_____/\____/_/  /_/|_|  
+                                    
+
+    Dork Scanner coded by Mr-Devils
     please use -h to see help
     """
 print ("")
 print(A)
 
-parser = argparse.ArgumentParser("katana-ds.py",formatter_class=argparse.RawTextHelpFormatter)
+parser = argparse.ArgumentParser("dork.py",formatter_class=argparse.RawTextHelpFormatter)
 parser.add_argument("-g","--google", help="google mode", action='store_true' )
 parser.add_argument("-s","--scada", help="scada mode ", action='store_true' )
 parser.add_argument("-t","--tor", help="Tor mode ", action='store_true' )
