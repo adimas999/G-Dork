@@ -1,31 +1,7 @@
-# @name:    Katana-dorkscanner
-# @repo:    https://github.com/adnane-X-tebbaa/Katana
-# @author:  Adnane tebbaa (AXT)
-# Main Google Dorking file V2.0
-"""
-MIT License
+# @name:    dorkscanner
+# @repo:    https://github.com/adimas999/G-Dork
+# @author:  MrDevils
 
-Copyright (c) 2020 adnane tebbaa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-"""
 import requests 
 import proxybroker 
 from googlesearch import search
@@ -54,10 +30,15 @@ def clear():
 print ("")
 
 A = """
-,_._._._._._._._._|__________________________________________________________
-|G|o|o|g|l|e|_|_|_|_________________________________________________________/
-                  |
-    Katana dork scanner (Katana-ds V1.5.3) coded by adnane-X-tebbaa 
+
+   ______      ____             __  
+  / ____/     / __ \____  _____/ /__
+ / / ________/ / / / __ \/ ___/ //_/
+/ /_/ /_____/ /_/ / /_/ / /  / ,<   
+\____/     /_____/\____/_/  /_/|_|  
+                                    
+
+    Dork scanner coded by MrDevils
     Google Mode
 """
 print ("")
